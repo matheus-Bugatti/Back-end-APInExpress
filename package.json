@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "BackEnd Projeto",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "keywords": [
     "node",
     "express",
