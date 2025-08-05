@@ -1,0 +1,16 @@
+{
+  "name": "api-express-backend",
+  "version": "1.0.0",
+  "description": "BackEnd Projeto",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "node",
+    "express",
+    "prisma",
+    "zod",
+    "mysql"
+  ],
+  "author": "matheus-Bugatti",
+  "license": "ISC"
+}
