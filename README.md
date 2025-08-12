@@ -1,5 +1,6 @@
 # Framework
 - Conjunto de recursos e/ou ferramentas utilizado para corrigir algum determinado problema.
+--------------------------------------------------------
 # Node.js
 - Ambiente Run time que roda o javascript (em um terminal ou servidor), btw crossplataform
 - ### NPM é Node Package Manager
@@ -31,6 +32,7 @@
   - Utilizado para atualizar dados já cadastrado, porém "mais afunilado", sendo possível alterar apenas um dado de um registro inteiro, um exemplo é trocar apenas a senha do registro.
 # Mudança do formato de importação/exportação de _require_ para _import_
 - #### Adicionar no package.json o a propiedade _type_ com o tipo _"module"_.
+--------------------------------------------------------
 # Nomeação própia de commits para acompanhamento e gerenciamento
 - #### Commit0 (_primeiroCommit_)
 - #### Alt-_nomeAlteração/Atualização_ (Alterações e/ou Atualizações de dados)
