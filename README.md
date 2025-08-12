@@ -16,6 +16,7 @@
   - ###### Excuta um pacote
 - ### npm run 
   - ###### Roda um script, "npm start" é o unico script que pode omitir o "run" 
+- ### Através do script --watch é possível fazer com que o servidor rode reiniciando a cada alteração automáticamente.
 --------------------------------------------------------
 ## Express
 - É a ferramenta(framework) sendo utilizada para criar a backend(API)
@@ -37,3 +38,14 @@
 - #### Commit0 (_primeiroCommit_)
 - #### Alt-_nomeAlteração/Atualização_ (Alterações e/ou Atualizações de dados)
 - #### Add-_nomeAdiciodo/Criado_ (Arquivo, documento e/ou pasta criada e/ou adicionada)
+--------------------------------------------------------
+# Sintaxe básica de uma rota da API
+- ### app._metodo_('/_endereçoRota_', (req, res) => { res._tipoResposta_ (_Resposta_)})
+- #### Metodo
+  - #### Post, Get, Put, Delete e etc.
+- #### Endereço/Rota
+  - #### Rota do "hosteamento", pode ser raiz (/) ou "algo a mais" (/algosla).
+- #### Tipo de Resposta
+  - #### Tipo dos dados que serão respondidos, sendo json, texto e coisa assim não sei mais.
+- #### Resposta
+  - #### A resposta dada com base no Tipo de Resposta.
