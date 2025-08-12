@@ -10,7 +10,7 @@
 - ### npm i nome_pacote 
   - ###### Instala um pacote específico 
 - ### npm install ou npm i 
-  - ###### Instala todos os pacotes do package.json
+  - ###### Instala todos os pacotes do package.json, respeitando o package-lock.json (limitando e atualizando), assim criando a pasta node_modules
 - ### npx nome_pacote 
   - ###### Excuta um pacote
 - ### npm run 
@@ -29,3 +29,7 @@
   - Utilizado para atualizar dados já cadastrados no servidor, sendo menos "afunilado", um exemplo é a atualizações no login;
 - #### Patch: 
   - Utilizado para atualizar dados já cadastrado, porém "mais afunilado", sendo possível alterar apenas um dado de um registro inteiro, um exemplo é trocar apenas a senha do registro.
+# Nomeação própia de commits para acompanhamento e gerenciamento
+- #### Commit0 (_primeiroCommit_)
+- #### Alt-_nomeAlteração/Atualização_ (Alterações e/ou Atualizações de dados)
+- #### Add-_nomeAdiciodo/Criado_ (Arquivo, documento e/ou pasta criada e/ou adicionada)
