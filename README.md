@@ -49,3 +49,6 @@
   - #### Tipo dos dados que serão respondidos, sendo json, texto e coisa assim não sei mais.
 - #### Resposta
   - #### A resposta dada com base no Tipo de Resposta.
+--------------------------------------------------------
+# Componentes
+- Através dos componentes é possível criar as partes do layout sem a necessidade de repetir diversas vezes a mesma estrutura como no html, assim sendo possível manusear de fazeer manutenção de forma mais prática e rápida.
