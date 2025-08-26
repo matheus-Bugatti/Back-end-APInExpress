@@ -52,3 +52,14 @@
 --------------------------------------------------------
 # Componentes
 - Através dos componentes é possível criar as partes do layout sem a necessidade de repetir diversas vezes a mesma estrutura como no html, assim sendo possível manusear de fazeer manutenção de forma mais prática e rápida.
+--------------------------------------------------------
+# Padrão de projeto (Design Pattern)
+- Uma forma de codificar e/ou organizar seus projetos que seja amplamente conhecida(mudialmente), sendo assim deixando muito mais fácil trabalhar em projeto diferentes com o mesmo padrão.
+- #### MVC (Model View Controller)
+  - É um padrão de organizar o código dividindo-o em 3 camadas, dando assim uma responsabilidade para cada uma.
+  - #### 1° Camada 
+    - Model -> Acesso ao Banco de dados (Cadastrar, Editar, Deletar e etc). Define as regras de negócio.
+  - #### 2° Camada
+    - View -> Apresentação e/ou interface do usuário, parte importante para o FrontEnd.
+  - #### 3° Camada
+    - Controller -> Entrada de Dados,Processamento de Dados e Saída de Dados.
