@@ -8,7 +8,7 @@ import { deleteProfileController } from './controllers/profile/deleteProfileCont
 const router = express.Router()
 
 router.post('/', createProfileController)
-router.get('/', listProfileController)
+router.get('/list', listProfileController)
 router.get('/:id', getByIdProfileController)
 router.put('/:id', editProfileController)
 router.delete('/:id', deleteProfileController)

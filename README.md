@@ -63,3 +63,20 @@
     - View -> Apresentação e/ou interface do usuário, parte importante para o FrontEnd.
   - #### 3° Camada
     - Controller -> Entrada de Dados,Processamento de Dados e Saída de Dados.
+
+# Prisma
+- Utilização do ORM.
+  - #### ORM (Object Relational Model)
+  - Importante para a relação do banco com o projeto, "transformando" as tabelas em objetos dentro do javascript.
+  - Facilita a execução dos comando no banco de dados.
+  - # Instalação do Prisma
+    - #### npm i prisma -D
+    - #### npm i @prisma/client
+  - # Inicializar o Prisma
+    - #### npx prisma init
+  - # Gerar o model do prisma a partir de um BD existente
+    - #### npx prisma db pull
+  - # Gerar o model do banco a partir de um model Prisma existente
+    - #### npx prisma db push
+  - # Gerar os arquivos necessários para usar o Prisma client no código.
+    - #### npx prisma generate
