@@ -80,3 +80,9 @@
     - #### npx prisma db push
   - # Gerar os arquivos necessários para usar o Prisma client no código.
     - #### npx prisma generate
+# jsx 
+- É a nomeação que se dá para a forma de colocar visualmente em sua página uma interface, ou seja o HTML misturado junto do JS React, usados nos componentes.
+# Hooks
+- Hooks são funções complementares/auxiliares que trazem funcionalidades de suas bibliotecas.
+- Funções do React, sendo elas do core do React, assim sendo possível utiliza-las tanto no React Native quanto no React DOM.
+- Todas começam com a palavra "use" e só funcionam depois da inicialização da função/componente e antes do return.
