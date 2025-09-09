@@ -2,7 +2,7 @@ import { create } from '../../models/profileModel.js'
 
 
 export const createProfileController = async (req, res) => {
-    const profile = req.body
+    const profile = req.body //Requisição para oq o usuário mandou
 
     const result = await create(profile)
 

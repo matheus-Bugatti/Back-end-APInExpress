@@ -80,6 +80,8 @@
     - #### npx prisma db push
   - # Gerar os arquivos necessários para usar o Prisma client no código.
     - #### npx prisma generate
+  - # Gerar banco de dados online mais fácil através do prisma
+    - #### npx prisma studio
 # jsx 
 - É a nomeação que se dá para a forma de colocar visualmente em sua página uma interface, ou seja o HTML misturado junto do JS React, usados nos componentes.
 # Hooks

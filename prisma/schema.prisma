@@ -14,3 +14,23 @@ model user {
   email String @unique(map: "email") @db.VarChar(100)
   pass  String @db.VarChar(255)
 }
+
+model product {
+  id    Int    @id @default(autoincrement())
+  name  String @db.VarChar(100)
+  tipo  String @db.VarChar(100)
+  preco Int
+}
+
+model customer {
+  id    Int    @id @default(autoincrement())
+  name  String @db.VarChar(100)
+  phone String @unique(map: "phone")
+  cep   Int
+}
+
+model supplier {
+  id   Int    @id @default(autoincrement())
+  name String @db.VarChar(100)
+  cnpj String @unique(map: "cnpj") @db.VarChar(100)
+}

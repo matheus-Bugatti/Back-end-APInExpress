@@ -7,7 +7,7 @@ import customerRouter from './routers/customerRouter.js'
 const app = express()
 const port = 3333
 
-app.use(express.json())
+app.use(express.json()) //converte os dados dos usuarios em json ou coisa assim
 
 app.use('/profile', profileRouter)
 app.use('/product', productRouter)
