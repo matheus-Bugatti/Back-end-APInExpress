@@ -88,3 +88,6 @@
 - Hooks são funções complementares/auxiliares que trazem funcionalidades de suas bibliotecas.
 - Funções do React, sendo elas do core do React, assim sendo possível utiliza-las tanto no React Native quanto no React DOM.
 - Todas começam com a palavra "use" e só funcionam depois da inicialização da função/componente e antes do return.
+
+# Middlewares (Padrão de Projeto)
+- É um padrão de projeto utilizado no express, organizando o código em funções, onde é executada em sequência(um fluxo de funções), sendo cada Middleware é uma função que ao terminar passa para próxima através do da função next do express, quando alguma função der uma resposta a sequência termina.
