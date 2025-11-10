@@ -6,25 +6,23 @@ export const loginController = async (req, res) => {
     // receber o email e a senha
     const { email, pass } = req.body
 
-    // comparar se o email e a senha batem com o que está no banco de dedos
+    // comparar se o email e a senha batem com o que está no banco de dados
     const user = await getByEmail(email)
     if (!user) {
-        console.error('Usuario não encontrado para o email', email)
+        console.error('Usuário não encontrado para o email:', email)
         return res.status(401).json({ message: 'Email ou Senha Inválida' })
     }
 
     const passOk = await bcrypt.compare(pass, user.pass)
     if (!passOk) {
-        console.error('Senha invalida')
-        return res.status(401).json({ message: 'Email ou Senha inválida' })
+        console.error('Senha inválida')
+        return res.status(401).json({ message: 'Email ou Senha Inválida' })
     }
 
-    // se bater, gerar um token JWT
-    console.log('JWT_SECRET')
+    // se bater, gerar um token (JWT)
     const token = await jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '1d' })
-
     if (!token) {
-        return res.status(500).json({ message: 'Erro ao gerar token de acesso' })
+        return res.status(500).json({ message: 'Erro ao gerar o Token de acesso!' })
     }
 
     // enviar o token para o cliente
