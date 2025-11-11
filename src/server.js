@@ -1,5 +1,5 @@
 import express from 'express'
-import authRouter from './routers/authRouter copy.js'
+import authRouter from './routers/authRouter.js'
 import profileRouter from './routers/profileRouter.js'
 import productRouter from './routers/productRouter.js'
 import supplierRouter from './routers/supplierRouter.js'
