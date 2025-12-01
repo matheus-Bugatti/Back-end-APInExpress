@@ -91,3 +91,13 @@
 
 # Middlewares (Padrão de Projeto)
 - É um padrão de projeto utilizado no express, organizando o código em funções, onde é executada em sequência(um fluxo de funções), sendo cada Middleware é uma função que ao terminar passa para próxima através do da função next do express, quando alguma função der uma resposta a sequência termina.
+
+
+-------
+
+- prova 9/12
+- autenticacao e login de usuarios
+    - como salvar a senha do usuario no BD de forma segura? salvar como hash (bcrypt)
+    - autenticaçao (login), oq verificar e fazer no login?
+    - JWT (Json Web Token)
+- validação de dados (regras de negocio) com ZOD
